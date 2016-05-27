@@ -37,7 +37,6 @@
    				<p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
    			<?php
                endif; ?>
-               <?php echo do_shortcode('[lsphe-header]'); ?>
    		</div><!-- .site-branding -->
 
       </div><!-- small-12 columns -->
@@ -72,6 +71,4 @@
    </div><!-- .row -->
 
 	<div id="content" class="site-content">
-      <div class="row">
-
-      
+      <!-- <div class="row"> -->
